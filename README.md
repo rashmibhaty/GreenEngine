@@ -10,9 +10,13 @@ Local governing bodies do have arrangements to collect unused household material
 **The idea**
 
 •	An online website to arrange collection/pick up of unused household materials.
+
 •	An agency (NGO/any organization) to collect and dispose these materials in a sustainable way. 
+
 •	Reselling of reusable things via shops at reasonable prices to needy.
+
 •	Rewarding mechanism to the users based on the quantity and quality of the materials given. 
+
 
 **Demo Video**
 -link
