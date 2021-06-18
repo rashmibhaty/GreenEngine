@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome</title>
+<link rel="stylesheet" href={{ url_for('static', filename='css/home.css') }} />
+<link rel="stylesheet" href={{ url_for('static', filename='css/topStyle.css') }} />
+<style>
+ #Left_Aln {
+      float: left;
+      background-color: #E6E6FA;
+      color:#00008B
+    }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+<div id="title">
+	<p> 
+	<img id="logo" src= {{ url_for('static', filename='images/ge.jpg') }} ALIGN=”right”/>
+    <h1 style="text-align:center;color:green"> Green Engine </h1> </p>
+    
+	{% if not loggedIn %}
+	<div id="signInButton">
+		<a class="link" href="/loginForm">Sign In</a>
+	</div>
+	{% else %}
+	<div class="dropdown">
+		<h2 color:#003399>Hello, <br>{{userName}}</h2>
+		<div class="dropdown-content">
+			<a href="/orders">Your orders</a>
+			
+			<a href="/logout">Sign Out</a>
+			<hr>
+			
+		</div>
+	</div>
+
+
+	<form action="/bookPickup" method="POST">
+	<h2 color:#003399> We collect anything eveything that can be reused or recycled, like </h2>
+		<table>
+		<tr id="productName">
+	{% for data in categoryData %}
+
+				<td>
+				  <img width=100  height=100 src={{ url_for('static', filename=data.image)}}  />
+				</td>
+
+		{% endfor %}
+		</tr>
+		</table>
+
+    <h2 color:#003399>  Book Date </h2>  
+    <select name="dateSelector" id="dateSelector">  
+    {% for data in dateData %}
+    <option value = {{data}}> {{data}} </option>  
+    {% endfor %}
+    </select>  
+ 
+    <h2 color:#003399> Book Time slot </h2>  
+    <select name="timeSelector" id="timeSelector">  
+    {% for data in timeData %}
+    <option value = {{data}}>  {{data}} </option>  
+    {% endfor %}
+    </select>  
+    
+    <p><input type="submit"></p>
+    
+    </form> 
+    
+ 
+	{% endif %}
+	
+</div>
+
+  <img id="message" src= {{ url_for('static', filename='images/rrr.jpg') }} style="width:25%;"/>
+
+</body>
+</html>
+

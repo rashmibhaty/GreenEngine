@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Registration</title>
+<script type="text/javascript" src="{{ url_for('static', filename = 'validateForm.js') }}">
+</script>
+  <style>
+    #C1_Aln {
+	  position: relative;
+      background-color: #E6E6FA;
+      width: 50%;
+      color:#00008B 
+    }
+    #C2_Aln {
+      position: relative;
+	  left: 15px;
+      background-color:  #E6E6FA;
+      color:#00008B
+    }
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+<body>
+<p> 
+	<img id="logo" src= {{ url_for('static', filename='images/ge.jpg') }} ALIGN=”right”/>
+    <h1 style="text-align:center;color:green"> Green Engine </h1> </p>
+<section id="C1_Aln">
+    <section id="C2_Aln">
+        <form action="/register" method="POST" onsubmit="return validate()">
+            <br>
+            <p>Email: <br><input type="email" name="email"></p>
+        
+            <P>Password: <br> <input type="password" name="password" id="password" required></p>
+        
+            <p>Confirm Password: <br> <input type="password" name="cpassword" id="cpassword"></p>
+        
+            <p>First Name: <br> <input type="text" name="firstName"></p>
+            <p>Last Name: <br> <input type="text" name="lastName"></p>
+            <p>Address Line 1: <br> <input type="text" name="address1"></p>
+            <p>Address Line 2: <br> <input type="text" name="address2"></p>
+            <p>Zipcode: <br> <input type="text" name="zipcode"></p>
+            <p>City: <br> <input type="text" name="city"></p>
+            <p>State: <br> <input type="text" name="state"></p>
+            <p>Country: <br> <input type="text" name="country"></p>
+            <p>Phone Number: <br> <input type="text" name="phone"></p>
+        
+            <p><input type="submit" value="Register"></p>
+        
+            <a href="/loginForm">Login Here</a>
+            <br>
+            <br>
+        </form>
+    </section>
+</section>
+ <img id="message" src= {{ url_for('static', filename='images/rrr.jpg') }} style="width:25%;"/>
+
+</body>
+</html>
+
+
+

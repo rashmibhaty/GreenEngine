@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Testing</title>
+  <style>
+    #Right_Aln {
+      float: right;
+      background-color: #E6E6FA;
+      width: 45%;
+      color:#00008B
+    }
+    #Left_Aln {
+      float: left;
+      background-color: #E6E6FA;
+      width: 95%;
+      color:#00008B
+    }
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+
+<body>
+
+<p> 
+	<img id="logo" src= {{ url_for('static', filename='images/ge.jpg') }} ALIGN=”right”/>
+    <h1 style="text-align:center;color:green"> Green Engine </h1> </p>
+    
+<section id="Left_Aln">
+    <form >
+    <p style="text-align:left;"> <h1> &nbsp;&nbsp; Booking Confirmed. </h1> </p>
+    
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pickup is scheduled for {{date}} between {{time}}.</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pickup reference number is {{booking}}.</p> 
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/">Home</a> </p>
+	</form>
+  </section>
+    <img id="message" src= {{ url_for('static', filename='images/rrr.jpg') }} style="width:25%;"/>
+</body>
+</html>

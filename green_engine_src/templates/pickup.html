@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Registration</title>
+<script type="text/javascript" src="{{ url_for('static', filename = 'validateForm.js') }}">
+</script>
+  <style>
+    #C1_Aln {
+	  position: relative;
+      background-color: #E6E6FA;
+      width: 50%;
+      color:#00008B 
+    }
+    #C2_Aln {
+      position: relative;
+	  left: 15px;
+      background-color:  #E6E6FA;
+      color:#00008B
+    }
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+<body>
+<p> 
+	<img id="logo" src= {{ url_for('static', filename='images/ge.jpg') }} ALIGN=”right”/>
+    <h1 style="text-align:center;color:green"> Green Engine </h1> </p>
+<section id="C1_Aln">
+    <section id="C2_Aln">
+        <form action="/savePickup" method="POST" ">
+            <br>
+            <p>Booking Reference Number: <br><input type="BookingNo" name="BookingNo"></p>
+       
+        	{% for data in categoryData %}
+            
+            <p>{{data.name}}:(in Kg) <br><input type={{data.name}} name={{data.name}} value=0></p>
+
+   
+    		{% endfor %}
+
+            <p>Others:(in Kg) <br><input type=others name=others value=0></p>
+            <p><input type="submit" value="Submit"></p>
+        
+ 
+            <br>
+            <br>
+        </form>
+    </section>
+</section>
+ <img id="message" src= {{ url_for('static', filename='images/rrr.jpg') }} style="width:25%;"/>
+
+</body>
+</html>
+
+
+

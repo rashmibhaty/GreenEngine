@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Testing</title>
+  <style>
+    #Right_Aln {
+      float: right;
+      background-color: #E6E6FA;
+      width: 45%;
+      color:#00008B
+    }
+    #Left_Aln {
+      float: left;
+      background-color: #E6E6FA;
+      width: 95%;
+      color:#00008B
+    }
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+
+<body>
+
+<p> 
+	<img id="logo" src= {{ url_for('static', filename='images/ge.jpg') }} ALIGN=”right”/>
+    <h1 style="text-align:center;color:green"> Green Engine </h1> </p>
+    
+<section id="Left_Aln">
+    <form >
+    <p style="text-align:left;"> <h1> &nbsp;&nbsp;&nbsp; Pickup Confirmed. </h1> </p>
+    
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Booking Reference number {{doc.booking_ref_no}} .</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toys {{doc.Toys}}Kg.</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clothes {{doc.Clothes}}Kg.</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NewsPaper {{doc.NewsPaper}}Kg.</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Electronics {{doc.Electronics}}Kg.</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Utensils {{doc.Utensils}}Kg.</p> 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Others {{doc.Others}}Kg.</p> 
+    <p> <h1> &nbsp;&nbsp;&nbsp; Rewards Earned {{doc.Rewards}}.<h1></p>
+
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/logout">Sign Out</a> </p>  
+    
+	</form>
+  </section>
+    <img id="message" src= {{ url_for('static', filename='images/rrr.jpg') }} style="width:25%;"/>
+</body>
+</html>
+

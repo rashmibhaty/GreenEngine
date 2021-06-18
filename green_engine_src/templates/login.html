@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Testing</title>
+  <style>
+    #Right_Aln {
+      float: right;
+      background-color: #E6E6FA;
+      width: 45%;
+      color:#00008B
+    }
+    #Left_Aln {
+      float: left;
+      background-color: #E6E6FA;
+      width: 45%;
+      color:#00008B
+    }
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+</head>
+
+<body>
+<p> 
+	<img id="logo" src= {{ url_for('static', filename='images/ge.jpg') }} ALIGN=”right”/>
+    <h1 style="text-align:center;color:green"> Green Engine </h1> </p>
+<p> {{error}} </p> 
+<section id="Left_Aln">
+    <form action="/login" method="POST">
+    <p style="text-align:left;"> <h1> &nbsp;&nbsp; User Login: </h1> </p>
+	<p style="text-align:center;"> Email: <br> <input type="text" name="email"></p>
+	<p style="text-align:center;"> Password: <br> <input type="password" name="password"></p>
+	<p style="text-align:center;"><input type="submit"></p>
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/registrationForm">Register Now</a> </p>
+	</form>
+  </section>
+  
+  <section id="Right_Aln">
+   <form action="/loginAgent" method="POST">
+      <p style="text-align:left;"> <h1> &nbsp;&nbsp; Agent Login: </h1> </p>
+      <p style="text-align:center;"> Email: <br> <input type="text" name="email"></p>
+      <p style="text-align:center;"> Password: <br> <input type="password" name="password"></p>
+      <p style="text-align:center;"><input type="submit"></p>
+      <br>
+      </form>
+  </section>
+   <img id="message" src= {{ url_for('static', filename='images/rrr.jpg') }} style="width:25%;"/>
+</body>
+</html>
