@@ -72,9 +72,9 @@ https://newapp-hilarious-puku-ss.eu-gb.mybluemix.net/
 
 **Built With**
 
-•	IBM Cloudant - The NoSQL database us
+•	IBM Cloudant - The NoSQL database
 
-•	CloudFoundry
+•	IBM CloudFoundry
 
 •	Twilio   etc…
 
