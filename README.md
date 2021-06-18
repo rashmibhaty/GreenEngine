@@ -1,29 +1,30 @@
 # GreenEngine
-What's the problem?
+**What's the problem?**
 
 Reduce, Reuse, Recycle are the key concepts that can be used to protect our environment. Sustainable ways to dispose household materials, that is of no use anymore, is a much-needed step. To attract larger audience to follow sustainable solution, a well-organized way of disposing materials is important. There is also a need to improve the reuse of unused materials (clothes, utensils, books, toys, etc.).  
 
-How can technology help?
+**How can technology help?**
 
 Local governing bodies do have arrangements to collect unused household materials. But sometimes we have restrictions on how frequently collection drives happen or materials that will be collected. It does not have any rewarding mechanism for the reusable/recyclable materials that we provide. Also, giving materials to ragpickers does not seem to be a reliable option. Given the situation, introducing an online website to facilitate collection and disposal of any kind of materials whenever we have something to dispose through an authorized media is required.
 
-The idea
+**The idea**
 
 •	An online website to arrange collection/pick up of unused household materials.
 •	An agency (NGO/any organization) to collect and dispose these materials in a sustainable way. 
 •	Reselling of reusable things via shops at reasonable prices to needy.
 •	Rewarding mechanism to the users based on the quantity and quality of the materials given. 
 
-#Demo Video 
+**Demo Video **
+
 -link
 
 
-The architecture
+**The architecture**
 
 -	![architecture](https://user-images.githubusercontent.com/65997817/122563853-58325c80-d062-11eb-9f90-57cd17a5519e.png)
 
 
-User side:
+**User side:**
 
 1.	The user registers to the site and login with the credential.
 2.	The user chooses the category of materials that need to be disposed and the preferred date and time slot to schedule the pick-up.
@@ -31,7 +32,7 @@ User side:
 4.	Refer the Agent side section 
 5.	Once the agent enters the pick-up details, user can view the order summary and the reward points received.
 
-Agent side:
+**Agent side:**
 
 1.	Agent gets the pick-up SMS notification once the user schedules a pick-up.
 2.	Agent picks up the materials in the scheduled date-time slot.
@@ -40,7 +41,7 @@ Agent side:
 5.	Based on the quantity entered, the user will be credited reward points that can be redeemed.
 
 
-Project RoadMap
+**Project RoadMap**
 
 	Current features
 	
@@ -58,13 +59,11 @@ Project RoadMap
 4.	Establishing a channel to reuse materials like shop, online website, etc. 
 
 
-Main Readme
+**Getting Started**
 
-Getting Started
+**Live Demo**
 
-Live Demo 
-
-Built With 
+**Built With **
 
 •	IBM Cloudant - The NoSQL database us
 
