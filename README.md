@@ -49,7 +49,8 @@ Project RoadMap
 3.	Agents will use agent login to enter the details of the collected materials (particularly the quantity of each category of items collected) for each of the pick-up. 
 4.	Using the details entered by agent for each pick-up, a reward mechanism is introduced were the user will get reward points that can be redeemed.
 5.	SMS service is incorporated with the help of Twilio to send booking confirmation message to the user and pick-up notification to agent.
-   	Future enhancements
+
+        Future enhancements
 	
 1.	Scheduling algorithm for pick-up based on location.
 2.	Better rewarding schemes to users based on the quality of the materials.
