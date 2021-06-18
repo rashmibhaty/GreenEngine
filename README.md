@@ -67,5 +67,8 @@ Live Demo
 Built With 
 
 •	IBM Cloudant - The NoSQL database us
+
 •	CloudFoundry
+
 •	Twilio   etc…
+
