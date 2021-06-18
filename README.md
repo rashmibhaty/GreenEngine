@@ -70,7 +70,7 @@ Local governing bodies do have arrangements to collect unused household material
 
 https://newapp-hilarious-puku-ss.eu-gb.mybluemix.net/
 
-**Built With **
+**Built With**
 
 •	IBM Cloudant - The NoSQL database us
 
