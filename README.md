@@ -1,17 +1,17 @@
 # GreenEngine
-What's the problem?
+#What's the problem?
 Reduce, Reuse, Recycle are the key concepts that can be used to protect our environment. Sustainable ways to dispose household materials, that is of no use anymore, is a much-needed step. To attract larger audience to follow sustainable solution, a well-organized way of disposing materials is important. There is also a need to improve the reuse of unused materials (clothes, utensils, books, toys, etc.).  
 
-How can technology help?
+#How can technology help?
 Local governing bodies do have arrangements to collect unused household materials. But sometimes we have restrictions on how frequently collection drives happen or materials that will be collected. It does not have any rewarding mechanism for the reusable/recyclable materials that we provide. Also, giving materials to ragpickers does not seem to be a reliable option. Given the situation, introducing an online website to facilitate collection and disposal of any kind of materials whenever we have something to dispose through an authorized media is required.
 
-The idea
+#The idea
 •	An online website to arrange collection/pick up of unused household materials.
 •	An agency (NGO/any organization) to collect and dispose these materials in a sustainable way. 
 •	Reselling of reusable things via shops at reasonable prices to needy.
 •	Rewarding mechanism to the users based on the quantity and quality of the materials given. 
 
-Demo Video 
+#Demo Video 
 -link
 
 The architecture
