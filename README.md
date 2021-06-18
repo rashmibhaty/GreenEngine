@@ -14,8 +14,7 @@ Local governing bodies do have arrangements to collect unused household material
 •	Reselling of reusable things via shops at reasonable prices to needy.
 •	Rewarding mechanism to the users based on the quantity and quality of the materials given. 
 
-**Demo Video **
-
+**Demo Video**
 -link
 
 
@@ -40,6 +39,10 @@ Local governing bodies do have arrangements to collect unused household material
 4.	The agent will measure the quantity of each category of materials collected and make an entry in the site along with the unique booking number for that pick-up.
 5.	Based on the quantity entered, the user will be credited reward points that can be redeemed.
 
+**Cloud side:**
+1.	We run IBM Cloud Foundy App using Flask written in Python
+2.	We use IBM Cloudant data base for storing all data
+3.	We use Twilio SMS service
 
 **Project RoadMap**
 
