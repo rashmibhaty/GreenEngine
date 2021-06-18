@@ -62,9 +62,9 @@ Local governing bodies do have arrangements to collect unused household material
 4.	Establishing a channel to reuse materials like shop, online website, etc. 
 
 
-**Getting Started**
-
 **Live Demo**
+
+https://newapp-hilarious-puku-ss.eu-gb.mybluemix.net/
 
 **Built With **
 
