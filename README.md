@@ -19,7 +19,7 @@ Local governing bodies do have arrangements to collect unused household material
 
 
 **Demo Video**
-https://youtu.be/zU9JOfLjLdE
+https://www.youtube.com/watch?v=3DswpJD9L7k
 
 
 **The architecture**
